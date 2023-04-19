@@ -78,6 +78,9 @@ To run this project you need smart contracts deployed
 to the etherium blockchain and their idl files
 on the config folder.
 Also need an active metamask account with some balance in it.
+
+Also please check the config-overrides.js file and change the
+```baseUrl``` to your local server address
 <br>
 ```npm run start```
 
