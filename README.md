@@ -1,9 +1,9 @@
-## NFT Marketplace with Stacking and Minting 🔥
+## NFT Marketplace with Staking and Minting 🔥
 <img src="src/assets/images/logo.jpg" width="100" height="100">
 
 #### Description
 Demo NFT marketplace based on one of the most popular blockchian Etherium
-with most advance features of stacking and minting of NFTs
+with most advance features of Staking and minting of NFTs
 
 ### Tech Stack
 <ul>
