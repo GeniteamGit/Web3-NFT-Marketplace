@@ -14,6 +14,20 @@ with most advance features of Staking and minting of NFTs
     <li>Metamask</li>
 </ul>
 
+### Features List
+<ul>
+    <li>Metamask 👜</li>
+    <li>Etherium Chain ⛓️</li>
+    <li>Minting🍦</li>
+    <li>NFT Staking🎆</li>
+    <li>Marketplace 🏪</li>
+    <li>Offers🫴</li>
+    <li>Activity 🎭</li>
+    <li>Custom Coins 🪙</li>
+    <li>Characters & Skins🤹‍♂️🤹‍♀️</li>
+</ul>
+
+
 ### Directory Structure
 
 . <br>
@@ -87,7 +101,6 @@ Also please check the config-overrides.js file and change the
 ```shell
 npm run start
 ```
-
 
 
 ### Basic Configurations
