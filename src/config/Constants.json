@@ -1,0 +1,16 @@
+{
+  "secretKey": "xxxxxxxxxxxxxx",
+  "dbListings": "listings",
+  "dbOffers": "offers",
+  "dbNfts": "nfts",
+  "dbActivity": "activity",
+  "transactionLimit": 1,
+  "firebaseConfig": {
+    "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxx",
+    "authDomain": "xxxxxxxxxxxxxxxxx.firebaseapp.com",
+    "projectId": "xxxxxxxxxxxxxxxxx",
+    "storageBucket": "xxxxxxxxxxxxxxxxx.appspot.com",
+    "messagingSenderId": "xxxxxxxxxxxxxxx",
+    "appId": "xxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxx"
+  }
+}

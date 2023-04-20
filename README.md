@@ -72,7 +72,9 @@ with most advance features of Staking and minting of NFTs
 
 ### Installation
 how to install and run this project <br>
-``` npm i --legacy-peer-deps```
+```shell
+ npm i --legacy-peer-deps
+ ```
 ### Prerequesties
 To run this project you need smart contracts deployed
 to the etherium blockchain and their idl files
@@ -82,7 +84,50 @@ Also need an active metamask account with some balance in it.
 Also please check the config-overrides.js file and change the
 ```baseUrl``` to your local server address
 <br>
-```npm run start```
+```shell
+npm run start
+```
 
 
+
+### Basic Configurations
+Go to the config folder and update the Constants.json file with your firebase configs.<br>
+```json
+    {
+  "secretKey": "xxxxxxxxxxxxxx",
+  "dbListings": "listings",
+  "dbOffers": "offers",
+  "dbNfts": "nfts",
+  "dbActivity": "activity",
+  "transactionLimit": 1,
+  "firebaseConfig": {
+    "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxx",
+    "authDomain": "xxxxxxxxxxxxxxxxx.firebaseapp.com",
+    "projectId": "xxxxxxxxxxxxxxxxx",
+    "storageBucket": "xxxxxxxxxxxxxxxxx.appspot.com",
+    "messagingSenderId": "xxxxxxxxxxxxxxx",
+    "appId": "xxxxxxxxxxxxxxxxx:xxxxxxxxxxxxxxxxx"
+  }
+}
+```
+and update the jsons with your smart contract addresses and idl files in index.js
+like this
+```javascript
+import marketplace from "./Marketplace.json";
+import characters from "./Characters.json";
+import skins from "./Skins.json";
+import coin from "./Coin.json";
+import staking from "./Staking";
+import minting from "./NftMinting.json";
+import config from "./Constants.json";
+export {
+    marketplace,
+    characters,
+    skins,
+    coin,
+    staking,
+    minting,
+    config
+}
+```
 Thanks
